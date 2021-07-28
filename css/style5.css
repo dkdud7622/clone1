@@ -1,0 +1,19 @@
+    .size5 {
+        height: 1600px;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        background-color: white;
+        margin-top: 75px;
+        justify-content: center;
+        max-width: 100vw;
+    }
+    
+    .grid3 {}
+    
+    .grid4 {}
+    
+    .last-img {
+        position: absolute;
+        right: 0px;
+        width: 750px
+    }
