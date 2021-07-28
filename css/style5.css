@@ -1,5 +1,5 @@
     .size5 {
-        height: 1600px;
+        height: 1300px;
         display: grid;
         grid-template-columns: 2fr 1fr;
         background-color: white;
@@ -8,12 +8,43 @@
         max-width: 100vw;
     }
     
-    .grid3 {}
+    .grid3 {
+        text-align: left;
+    }
     
-    .grid4 {}
+    .grid4 {
+        margin-top: -70px;
+    }
     
     .last-img {
-        position: absolute;
         right: 0px;
-        width: 750px
+        width: 760px
+    }
+    
+    .inner-box {
+        margin-top: 30px;
+        margin-left: 220px;
+        margin-bottom: 100px;
+        letter-spacing: -1px;
+        min-width: 500px;
+    }
+    
+    .title-box {
+        font-size: 42px;
+        margin-bottom: 30px;
+        letter-spacing: -1px;
+    }
+    
+    .text-box {
+        width: 512px;
+        font-size: 20px;
+        line-height: 1.8;
+        letter-spacing: -1px;
+    }
+    
+    .start-black-5 {
+        color: black;
+        font-size: 19px;
+        text-decoration-line: underline;
+        margin-top: 23px;
     }
